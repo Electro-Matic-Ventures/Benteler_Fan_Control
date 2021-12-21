@@ -1,0 +1,49 @@
+<!-- AWP_In_Variable Name = '"Web_Time"' -->
+
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>      
+    <script>
+        $(document).ready(function(){
+            GetSetTimeData();
+        });
+    </script>
+</head>
+
+
+<body>
+    <div id='time'>
+        <button type="button" class="collapsible" onclick="CollapseDiv(this);">Instructions</button>
+            <div class="content">
+                Enter the date and time below. <br>
+                Type following the format provided or use the date/time picker by clicking <br>
+                on the calendar icon to the left. <br>
+                &nbsp <br>
+            </div>
+        <br>
+        <form method = "post" >
+            <table style="height:10%;width:100%; padding:5px" cellspacing="5">
+                <tr>
+                    <td width="20%">Current Date & Time:</td>
+                    <td id='current_time' class='current_time' width="80%" valign="middle"></td>
+                </tr>
+                <tr>
+                    <td width="20%">Enter Date & Time:</td>
+                    <td width="40%">
+                        <input style="width:100%;font-size:20px" type="datetime-local" name='"Web_Time".input'>
+                    </td>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                </tr>
+                <tr>
+                    <td colspan = "2">
+                        <input style="width:100%; height:50px; font-size:32px" type="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
