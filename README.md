@@ -16,7 +16,6 @@ step | what to do
 
 version history
 ----------------
-version | to do | notes
---------|-------|--------
-PLC_Web_Template.000.001 | gutted project | time page functional
-PLC_Web_Template.001.000 | ready for use |
+version | work | next | notes
+--------|-------|--------|----------
+Bentler_Fan_Control.000.001 | set up project | html table for fans | none 

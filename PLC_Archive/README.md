@@ -1,6 +1,5 @@
 # PLC-Project-Template
 
-version | to do | notes
---------|-------|--------
-PLC_Web_Template.000.001 | gut projtect | kept time page
-PLC_Web_Template.001.000 | ready for use | 
+version | work | next | notes
+--------|-------|--------|----------
+Bentler_Fan_Control.000.001 | set up project | html table for fans | none 
