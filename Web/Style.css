@@ -1,0 +1,233 @@
+body{
+	font-family: Arial, sans-serif;
+	font-size: 24px;
+}
+
+.CurrentTime{
+	font-size: 24px;
+}
+
+.TableHeader{
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.side_nav {
+    height: 85%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    top: 15%;
+    left: 0;
+    background-color: #306090;
+    overflow-x: hidden;
+    padding-top: 30px;
+}
+
+.side_nav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #EEEEEE;
+    display: block;
+    transition: all 0.5s ease 0s;
+}
+
+.darken:hover {
+    color: #ffff00;
+    filter: brightness(90%);
+}
+
+.application {
+	height: 84%;
+    width: 84%;
+    position: fixed;
+    z-index: 1;
+    top: 15%;
+    left: 15%;
+    background-color: #D2D2D2;
+    overflow-x: hidden;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.banner{
+	height: 14%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #306090;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.bannerbottom{
+	height: 11%;
+    width: 28%;
+    position: fixed;
+    z-index: 1;
+    top: 4%;
+	left: 7%;
+    background-color: #323232;
+    overflow-x: hidden;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #000;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 32px;
+}
+
+.active, .collapsible:hover {
+  background-color: #eeeeee;
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+.content {
+  padding-left: 20px;
+  background-color: #eeeeee;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.logo{
+	top: 1%;
+	left: 5%;
+	position: fixed;
+}
+
+.msgFormats{
+	font-size: 14px;
+	font-weight: normal;
+}
+.slogan{
+	top: 6%;
+	left: 13%;
+	position: fixed;
+}
+
+.slogantext{
+	top: 11%;
+	left: 13%;
+	position: fixed;
+	color: #EEEEEE;
+}
+
+.phone{
+	top: 2%;
+	right: 5%;
+	position: fixed;
+	font-size: 50px;
+	text-align: right;
+	color: #EEEEEE;
+}
+
+td{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+option{
+  margin-left: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+select{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+input{
+	font-size: 24px;
+	font-weight: normal;
+}
+
+textarea{
+	font-size: 24px;
+	font-weight: normal;
+}
+
+.charCounter{
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.user_interface {
+    border-collapse: collapsed;
+    background-color: #DFDFE0;
+    border: 0px solid black;
+}
+
+td.blank.thin {
+    height: 10px;
+}
+
+td.message_label {
+    width: 100px;
+    text-align: center;
+}
+
+td.remaining {
+    text-align: center;
+}
+
+.submit_button {
+    height: 175px;
+    width: 100%;
+    font-weight: bold;
+    transition: all 0.5s ease 0s;
+}
+
+td.submit_button_host {
+    width: 120px;
+    transition: all 0.5s ease 0s;
+}
+
+.submit_button:hover {
+    filter: brightness(95%);  
+    box-shadow: inset 0px 0px 20px 2px #ffff00;
+}
+
+select {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease 0s;
+}
+
+select:hover {
+    filter: brightness(95%);
+    box-shadow: inset 0px 0px 10px 2px #ffff00;
+}
+
+textarea {
+    transition: all 0.5s ease 0s;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+textarea:hover {
+    filter: brightness(95%);
+    box-shadow: inset 0px 0px 20px 2px #ffff00;
+}
