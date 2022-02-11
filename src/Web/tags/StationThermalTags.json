@@ -1,0 +1,13 @@
+<!-- AWP_In_Variable Name = '"Stations"' -->
+
+{
+    "max": {
+        "speed": ":="Web_Meta".thermal_schedule.max.speed:",
+        "temperature": ":="Web_Meta".thermal_schedule.max.temperature:"
+    },
+    "start": {
+        "speed": ":="Web_Meta".thermal_schedule.start.speed:",
+        "temperature": ":="Web_Meta".thermal_schedule.start.temperature:"
+    },
+    "station_index": ":="Web_Meta".selected_station:"
+}

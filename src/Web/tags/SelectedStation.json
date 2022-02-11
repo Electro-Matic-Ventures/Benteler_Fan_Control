@@ -1,0 +1,5 @@
+<!-- AWP_In_Variable Name = '"Web_Meta"' -->
+
+{
+    "station_index": ":="Web_Meta".selected_station:"
+}

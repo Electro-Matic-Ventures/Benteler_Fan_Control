@@ -5,7 +5,7 @@ class MyException(Exception): pass
 
 NumberOfClicks = 0
 LastTime = 0
-ClickLimit = 10
+ClickLimit = 12
 
 def on_click(x, y, button, pressed):
     if not pressed: return

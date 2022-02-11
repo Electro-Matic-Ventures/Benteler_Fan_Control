@@ -1,0 +1,194 @@
+<!-- AWP_In_Variable Name = '"Stations"' -->
+
+{
+    "friday": [
+        {
+            "speed": ":="Web_Meta".temporal_schedule.friday[0].speed:",
+            "start": ":="Web_Meta".temporal_schedule.friday[0].start:",
+            "stop": ":="Web_Meta".temporal_schedule.friday[0].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.friday[1].speed:",
+            "start": ":="Web_Meta".temporal_schedule.friday[1].start:",
+            "stop": ":="Web_Meta".temporal_schedule.friday[1].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.friday[2].speed:",
+            "start": ":="Web_Meta".temporal_schedule.friday[2].start:",
+            "stop": ":="Web_Meta".temporal_schedule.friday[2].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.friday[3].speed:",
+            "start": ":="Web_Meta".temporal_schedule.friday[3].start:",
+            "stop": ":="Web_Meta".temporal_schedule.friday[3].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.friday[4].speed:",
+            "start": ":="Web_Meta".temporal_schedule.friday[4].start:",
+            "stop": ":="Web_Meta".temporal_schedule.friday[4].stop:"
+        }
+    ],
+    "monday": [
+        {
+            "speed": ":="Web_Meta".temporal_schedule.monday[0].speed:",
+            "start": ":="Web_Meta".temporal_schedule.monday[0].start:",
+            "stop": ":="Web_Meta".temporal_schedule.monday[0].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.monday[1].speed:",
+            "start": ":="Web_Meta".temporal_schedule.monday[1].start:",
+            "stop": ":="Web_Meta".temporal_schedule.monday[1].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.monday[2].speed:",
+            "start": ":="Web_Meta".temporal_schedule.monday[2].start:",
+            "stop": ":="Web_Meta".temporal_schedule.monday[2].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.monday[3].speed:",
+            "start": ":="Web_Meta".temporal_schedule.monday[3].start:",
+            "stop": ":="Web_Meta".temporal_schedule.monday[3].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.monday[4].speed:",
+            "start": ":="Web_Meta".temporal_schedule.monday[4].start:",
+            "stop": ":="Web_Meta".temporal_schedule.monday[4].stop:"
+        }
+    ],
+    "saturday": [
+        {
+            "speed": ":="Web_Meta".temporal_schedule.saturday[0].speed:",
+            "start": ":="Web_Meta".temporal_schedule.saturday[0].start:",
+            "stop": ":="Web_Meta".temporal_schedule.saturday[0].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.saturday[1].speed:",
+            "start": ":="Web_Meta".temporal_schedule.saturday[1].start:",
+            "stop": ":="Web_Meta".temporal_schedule.saturday[1].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.saturday[2].speed:",
+            "start": ":="Web_Meta".temporal_schedule.saturday[2].start:",
+            "stop": ":="Web_Meta".temporal_schedule.saturday[2].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.saturday[3].speed:",
+            "start": ":="Web_Meta".temporal_schedule.saturday[3].start:",
+            "stop": ":="Web_Meta".temporal_schedule.saturday[3].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.saturday[4].speed:",
+            "start": ":="Web_Meta".temporal_schedule.saturday[4].start:",
+            "stop": ":="Web_Meta".temporal_schedule.saturday[4].stop:"
+        }
+    ],
+    "station_index": "0",
+    "sunday": [
+        {
+            "speed": ":="Web_Meta".temporal_schedule.sunday[0].speed:",
+            "start": ":="Web_Meta".temporal_schedule.sunday[0].start:",
+            "stop": ":="Web_Meta".temporal_schedule.sunday[0].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.sunday[1].speed:",
+            "start": ":="Web_Meta".temporal_schedule.sunday[1].start:",
+            "stop": ":="Web_Meta".temporal_schedule.sunday[1].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.sunday[2].speed:",
+            "start": ":="Web_Meta".temporal_schedule.sunday[2].start:",
+            "stop": ":="Web_Meta".temporal_schedule.sunday[2].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.sunday[3].speed:",
+            "start": ":="Web_Meta".temporal_schedule.sunday[3].start:",
+            "stop": ":="Web_Meta".temporal_schedule.sunday[3].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.sunday[4].speed:",
+            "start": ":="Web_Meta".temporal_schedule.sunday[4].start:",
+            "stop": ":="Web_Meta".temporal_schedule.sunday[4].stop:"
+        }
+    ],
+    "thursday": [
+        {
+            "speed": ":="Web_Meta".temporal_schedule.thursday[0].speed:",
+            "start": ":="Web_Meta".temporal_schedule.thursday[0].start:",
+            "stop": ":="Web_Meta".temporal_schedule.thursday[0].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.thursday[1].speed:",
+            "start": ":="Web_Meta".temporal_schedule.thursday[1].start:",
+            "stop": ":="Web_Meta".temporal_schedule.thursday[1].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.thursday[2].speed:",
+            "start": ":="Web_Meta".temporal_schedule.thursday[2].start:",
+            "stop": ":="Web_Meta".temporal_schedule.thursday[2].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.thursday[3].speed:",
+            "start": ":="Web_Meta".temporal_schedule.thursday[3].start:",
+            "stop": ":="Web_Meta".temporal_schedule.thursday[3].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.thursday[4].speed:",
+            "start": ":="Web_Meta".temporal_schedule.thursday[4].start:",
+            "stop": ":="Web_Meta".temporal_schedule.thursday[4].stop:"
+        }
+    ],
+    "tuesday": [
+        {
+            "speed": ":="Web_Meta".temporal_schedule.tuesday[0].speed:",
+            "start": ":="Web_Meta".temporal_schedule.tuesday[0].start:",
+            "stop": ":="Web_Meta".temporal_schedule.tuesday[0].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.tuesday[1].speed:",
+            "start": ":="Web_Meta".temporal_schedule.tuesday[1].start:",
+            "stop": ":="Web_Meta".temporal_schedule.tuesday[1].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.tuesday[2].speed:",
+            "start": ":="Web_Meta".temporal_schedule.tuesday[2].start:",
+            "stop": ":="Web_Meta".temporal_schedule.tuesday[2].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.tuesday[3].speed:",
+            "start": ":="Web_Meta".temporal_schedule.tuesday[3].start:",
+            "stop": ":="Web_Meta".temporal_schedule.tuesday[3].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.tuesday[4].speed:",
+            "start": ":="Web_Meta".temporal_schedule.tuesday[4].start:",
+            "stop": ":="Web_Meta".temporal_schedule.tuesday[4].stop:"
+        }
+    ],
+    "wednesday": [
+        {
+            "speed": ":="Web_Meta".temporal_schedule.wednesday[0].speed:",
+            "start": ":="Web_Meta".temporal_schedule.wednesday[0].start:",
+            "stop": ":="Web_Meta".temporal_schedule.wednesday[0].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.wednesday[1].speed:",
+            "start": ":="Web_Meta".temporal_schedule.wednesday[1].start:",
+            "stop": ":="Web_Meta".temporal_schedule.wednesday[1].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.wednesday[2].speed:",
+            "start": ":="Web_Meta".temporal_schedule.wednesday[2].start:",
+            "stop": ":="Web_Meta".temporal_schedule.wednesday[2].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.wednesday[3].speed:",
+            "start": ":="Web_Meta".temporal_schedule.wednesday[3].start:",
+            "stop": ":="Web_Meta".temporal_schedule.wednesday[3].stop:"
+        },
+        {
+            "speed": ":="Web_Meta".temporal_schedule.wednesday[4].speed:",
+            "start": ":="Web_Meta".temporal_schedule.wednesday[4].start:",
+            "stop": ":="Web_Meta".temporal_schedule.wednesday[4].stop:"
+        }
+    ]
+}

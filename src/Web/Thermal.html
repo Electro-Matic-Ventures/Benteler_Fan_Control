@@ -1,0 +1,18 @@
+<!-- AWP_In_Variable Name = '"Stations"' -->
+<!-- AWP_In_Variable Name = '"Web_Meta"' -->
+
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>      
+    <script>
+        $(document).ready(function(){
+            setTimeout(() => {console.log('thermal waiting for 500 ms');}, 500);
+            getThermalData();
+        });
+    </script>
+</head>
+
+<body class="single_station_application_host">
+    <div id="thermal_application_host" class="single_station_application_host" style="height:100%;"></div>
+</body>

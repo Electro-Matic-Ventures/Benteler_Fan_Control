@@ -7,32 +7,37 @@ import numpy as np
 def load_to_plc():
     
     moves = [
-		{'x': 772, 'y': 433},
-		{'x': 1281, 'y': 643},
-		{'x': 900, 'y': 847},
-		{'x': 1006, 'y': 553},
-		{'x': 786, 'y': 442},
-		{'x': 402, 'y': 57},
-		{'x': 1260, 'y': 460},
-		{'x': 1254, 'y': 495},
-		{'x': 1198, 'y': 715},
-		{'x': 1124, 'y': 726}
+		{'x': 792, 'y': 1062},
+		{'x': 682, 'y': 460},
+		{'x': 1562, 'y': 672},
+		{'x': 945, 'y': 885},
+		{'x': 1023, 'y': 562},
+		{'x': 676, 'y': 469},
+		{'x': 397, 'y': 55},
+		{'x': 1312, 'y': 459},
+		{'x': 1252, 'y': 488},
+		{'x': 1207, 'y': 718},
+		{'x': 1112, 'y': 731},
+		{'x': 742, 'y': 1052}
     ]
 
     wait = [
         0.25,
         0.25,
         0.25,
-        5.0,
         0.25,
-        3.0,
+        2.5,
+        0.25,
+        2.5,
         2.0,
         0.25,
-        3.0,
+        2.5,
+        0.25,
         0.25
     ]
 
     click_locations = [
+        'SWITH APPLICATIONS',
         'PLC', 
         'PROPERTIES', 
         'GENERATE BLOCKS', 
@@ -42,7 +47,8 @@ def load_to_plc():
         'STOP PLC LIST BOX', 
         'STOP PLC SELECTION', 
         'LOAD', 
-        'FINISH'
+        'FINISH',
+        'RETURN TO VSCODE'
     ]    
     
     for i,move in enumerate(moves): 
@@ -98,3 +104,6 @@ def get_longest_label(labels):
 
 def write_time_label(wait):
     return wait
+
+
+load_to_plc()

@@ -1,7 +1,0 @@
-<!-- AWP_In_Variable Name = '"Web_Time"' -->
-
-{
-    "current_time": ":="Web_Time".current:"
-} 
-
-        

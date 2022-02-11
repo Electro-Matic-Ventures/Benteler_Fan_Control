@@ -1,0 +1,10 @@
+<!-- AWP_In_Variable Name = '"Web_Meta"' -->
+
+{
+    "command_speed": ":="Web_Meta".manual.command_speed:",
+    "mode": ":="Web_Meta".manual.mode:",
+    "toggle": ":="Web_Meta".manual.toggle:",
+    "station_index": ":="Web_Meta".selected_station:",
+    "override": ":="Web_Meta".manual.override:",
+    "acknowledge": ":="Web_Meta".manual.acknowledge:"
+}

@@ -1,0 +1,206 @@
+<!-- AWP_In_Variable Name = '"Stations"' -->
+
+{
+    "colors": [
+        {
+            "color": ":="Stations".me[0].faults.color:",
+            "id": ":="Stations".me[0].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[1].faults.color:",
+            "id": ":="Stations".me[1].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[2].faults.color:",
+            "id": ":="Stations".me[2].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[3].faults.color:",
+            "id": ":="Stations".me[3].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[4].faults.color:",
+            "id": ":="Stations".me[4].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[5].faults.color:",
+            "id": ":="Stations".me[5].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[6].faults.color:",
+            "id": ":="Stations".me[6].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[7].faults.color:",
+            "id": ":="Stations".me[7].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[8].faults.color:",
+            "id": ":="Stations".me[8].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[9].faults.color:",
+            "id": ":="Stations".me[9].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[10].faults.color:",
+            "id": ":="Stations".me[10].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[11].faults.color:",
+            "id": ":="Stations".me[11].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[12].faults.color:",
+            "id": ":="Stations".me[12].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[13].faults.color:",
+            "id": ":="Stations".me[13].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[14].faults.color:",
+            "id": ":="Stations".me[14].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[15].faults.color:",
+            "id": ":="Stations".me[15].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[16].faults.color:",
+            "id": ":="Stations".me[16].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[17].faults.color:",
+            "id": ":="Stations".me[17].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[18].faults.color:",
+            "id": ":="Stations".me[18].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[19].faults.color:",
+            "id": ":="Stations".me[19].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[20].faults.color:",
+            "id": ":="Stations".me[20].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[21].faults.color:",
+            "id": ":="Stations".me[21].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[22].faults.color:",
+            "id": ":="Stations".me[22].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[23].faults.color:",
+            "id": ":="Stations".me[23].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[24].faults.color:",
+            "id": ":="Stations".me[24].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[25].faults.color:",
+            "id": ":="Stations".me[25].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[26].faults.color:",
+            "id": ":="Stations".me[26].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[27].faults.color:",
+            "id": ":="Stations".me[27].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[28].faults.color:",
+            "id": ":="Stations".me[28].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[29].faults.color:",
+            "id": ":="Stations".me[29].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[30].faults.color:",
+            "id": ":="Stations".me[30].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[31].faults.color:",
+            "id": ":="Stations".me[31].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[32].faults.color:",
+            "id": ":="Stations".me[32].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[33].faults.color:",
+            "id": ":="Stations".me[33].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[34].faults.color:",
+            "id": ":="Stations".me[34].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[35].faults.color:",
+            "id": ":="Stations".me[35].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[36].faults.color:",
+            "id": ":="Stations".me[36].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[37].faults.color:",
+            "id": ":="Stations".me[37].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[38].faults.color:",
+            "id": ":="Stations".me[38].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[39].faults.color:",
+            "id": ":="Stations".me[39].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[40].faults.color:",
+            "id": ":="Stations".me[40].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[41].faults.color:",
+            "id": ":="Stations".me[41].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[42].faults.color:",
+            "id": ":="Stations".me[42].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[43].faults.color:",
+            "id": ":="Stations".me[43].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[44].faults.color:",
+            "id": ":="Stations".me[44].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[45].faults.color:",
+            "id": ":="Stations".me[45].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[46].faults.color:",
+            "id": ":="Stations".me[46].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[47].faults.color:",
+            "id": ":="Stations".me[47].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[48].faults.color:",
+            "id": ":="Stations".me[48].interface.id:"
+        },
+        {
+            "color": ":="Stations".me[49].faults.color:",
+            "id": ":="Stations".me[49].interface.id:"
+        }
+    ]
+}

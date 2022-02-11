@@ -1,0 +1,61 @@
+<!-- AWP_In_Variable Name = '"Stations"' -->
+<!-- AWP_In_Variable Name = '"Web_Meta"' -->
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="scripts.js"></script>      
+    <script>
+        $(document).ready(function(){
+            getOverheadViewData();
+        });
+    </script>
+</head>
+
+
+<body>
+    <button type="button" class="collapsible" onclick="CollapseDiv(this);">Instructions</button>
+    <div class="content">
+        Mouse over a fan for status.
+        Click on a fan to change settings.
+    </div>
+    <br>
+    <div id="overhead_view" class="overhead_view">
+        <img id="overhead_image" class="overhead_view" src="./overhead_666x415.png">
+        <div id="station_10_button" class="overhead_station button" style="top:660px; left: 392px;" onclick="saveStationIndex(this);">
+            RTU-0010
+        </div>
+        <div id="station_11_button" class="overhead_station button" style="top:581px; left: 387px;" onclick="saveStationIndex(this);">
+            RTU-0011
+        </div>
+        <div id="station_14_button" class="overhead_station button" style="top:623px; left: 465px;" onclick="saveStationIndex(this);">
+            RTU-0014
+        </div>
+        <div id="station_15_button" class="overhead_station button" style="top:575px; left: 468px;" onclick="saveStationIndex(this);">
+            RTU-0015
+        </div>
+        <div id="station_20_button" class="overhead_station button" style="top:623px; left: 565px;" onclick="saveStationIndex(this);">
+            RTU-0020
+        </div>
+        <div id="station_21_button" class="overhead_station button" style="top:573px; left: 565px;" onclick="saveStationIndex(this);">
+            RTU-0021
+        </div>
+        <div id="station_35_button" class="overhead_station button" style="top:606px; left: 676px;" onclick="saveStationIndex(this);">
+            RTU-0035
+        </div>
+        <div id="station_42_button" class="overhead_station button" style="top:610px; left: 785px;" onclick="saveStationIndex(this);">
+            RTU-0042
+        </div>
+        <div id="station_52_button" class="overhead_station button" style="top:602px; left: 885px;" onclick="saveStationIndex(this);">
+            RTU-0052
+        </div>
+        <div id="station_53_button" class="overhead_station button" style="top:535px; left: 860px;" onclick="saveStationIndex(this);">
+            RTU-0053
+        </div>
+        <div id="station_54_button" class="overhead_station button" style="top:565px; left: 934px;" onclick="saveStationIndex(this);">
+            RTU-0054
+        </div>
+        <div id="station_55_button" class="overhead_station button" style="top:500px; left: 932px;" onclick="saveStationIndex(this);">
+            RTU-0055
+        </div>
+    </div>
+</body>

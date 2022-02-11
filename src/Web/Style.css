@@ -142,24 +142,32 @@ body{
 	color: #EEEEEE;
 }
 
-td{
-	font-size: 24px;
-	font-weight: bold;
+th, td{
+    height: 32px;
+	font-size: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+th {
+    font-weight: bold;
 }
 
 option{
   margin-left: 5px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 select{
-  font-size: 18px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 input{
-	font-size: 24px;
+	font-size: 16px;
 	font-weight: normal;
 }
 
@@ -230,4 +238,163 @@ textarea {
 textarea:hover {
     filter: brightness(95%);
     box-shadow: inset 0px 0px 20px 2px #ffff00;
+}
+
+div.overhead_view {
+    height: 740px;
+    width: 1575px;
+}
+
+img.overhead_view {
+    width: auto;
+    height: 95%;
+    margin-left: 175px;
+}
+
+div.overhead_station {
+    border: 1px solid black;
+    position: absolute;
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 5px;
+    z-index: 10;
+    transition: 0.2s ease;
+    background: rgba(175, 175, 175, 0.75);
+    border-radius: 5px;
+    box-shadow: 5px 5px 2px 0px rgb(75 75 75);
+}
+
+div.overhead_station.green {
+    background: rgba(0, 255, 0, 0.75);
+
+}
+
+div.overhead_station.yellow {
+    background: rgba(255, 255, 0, 0.75);
+
+}
+
+div.overhead_station.red {
+    background: rgba(255, 0, 0, 0.75);
+    
+}
+
+div.overhead_station.blue {
+    background: rgba(0, 0, 255, 0.75);
+}
+
+div.overhead_station.button:hover {
+    border: 3px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    z-index:99;
+}
+
+.rTable { display: table; }
+.rTableRow { display: table-row; }
+.rTableHead { display: table-header-group; }
+.rTableBody { display: table-row-group; }
+.rTableFoot { display: table-footer-group; }
+.rTableCell, .rTableHead { display: table-cell; }
+
+.rTableCell {
+    background-color:  #EEEEEE;
+    padding-left: 10px;
+}
+
+.manual_control, .thermal_ramp, .status, .schedule {
+    background-color: #EEEEEE;
+}
+
+.blank_cell {
+    height: 5px;
+    width: 5px;
+    padding: 0px;
+    background-color: #D2D2D2;
+}
+
+.blank_row {
+    background-color: #D2D2D2;
+}
+
+table {
+    border-collapse: collapse;
+    border: 0px solid black;
+}
+
+th {
+    text-align: left;
+}
+
+input[type='submit'].manual {
+    background-color: #00CFFF;
+}
+
+input[type='submit'].thermal_ramp {
+    background-color: #00CFFF;
+}
+
+input[type='submit'].schedule {
+    background-color: #00CFFF;
+}
+
+td.label.thermal_ramp {
+    font-weight: bold;
+}
+
+th.thermal_ramp.header {
+    text-align: center;
+}
+
+input[type='text'] {
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid black;
+    padding-left: 5px;
+}
+
+td.host {
+    padding: 0px;
+}
+
+input[type='submit'] {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    border-width: 0px;
+    font-weight: bold;
+}
+
+td.submit {
+    padding: 0px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+input[type='time'] {
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+}
+
+form {
+    height: 100%;
+    margin: 0px;
+}
+
+.single_station_application_host {
+    top:0px;
+    left: 0px; 
+    padding: 0px;
+    margin: 0px;
+}
+
+input[type='datetime-local'] {
+    font-size: 10px;
 }

@@ -1,0 +1,14 @@
+<!-- AWP_In_Variable Name = '"Stations"' -->
+
+{
+    "station_data": {
+        "current": ":="Web_Meta".drive.feedback.current.me.processed:",
+        "faults": ":="Web_Meta".faults.fault:",
+        "speed": ":="Web_Meta".drive.feedback.speed.me.processed:",
+        "commanded": ":="Web_Meta".drive.commands.speed:",
+        "state": ":="Web_Meta".drive.feedback.state:",
+        "station_id": ":="Web_Meta".id:",
+        "station_index": ":="Web_Meta".selected_station:",
+        "temperature": ":="Web_Meta".drive.sensors.thermal.me.processed:"
+    }
+}
